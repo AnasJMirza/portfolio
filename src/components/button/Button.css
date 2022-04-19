@@ -1,0 +1,20 @@
+.btn{
+    background-image: linear-gradient(rgb(115, 152, 241), rgb(76, 103, 210));
+    padding: 10px 0px;
+    width: 150px;
+    border-radius: 4px;
+    font-size: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    transition: all 0.5s;
+
+}
+
+
+.btn:hover{
+    transform: scale(1.1);   
+}

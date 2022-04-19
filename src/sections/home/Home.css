@@ -1,0 +1,130 @@
+.homeBG{
+    height: 199vh;
+    background-image: url('/public/images/homeBG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 3;
+}
+
+.homeBG:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 35%;
+    top: 150vh;
+    left: 0px;
+    background-color: #191919;
+    transform: skewY(-5deg);
+    z-index: -1;
+}
+
+.homeText{
+    color: white;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 170px;
+}
+
+.homeName{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+.homeDesc{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.homeButton{
+    margin-top: 30px;
+    
+}
+
+.textDecoration{
+    text-decoration: none;
+    color: white;
+}
+
+.homeIconsWrapper{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    text-decoration: none;
+    /* border: 2px solid green; */
+}
+
+.homeIcon{
+    color: #5e84e9;
+    transition: all 0.5s;
+}
+
+.homeIcon:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.homeCardWrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.homeCard{
+    transition: all 0.5s;
+    
+}
+
+.homeCard:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/* media queries starts here */
+
+
+@media (max-width: 992px){
+    .homeText{
+        align-items: center;
+        margin: 0px;
+    }
+
+    .homeName{
+        font-size: 30px;
+        font-weight: bolder;
+        line-height: 35px;
+    }
+
+    .homeDesc{
+        font-size: 18px;
+    }
+
+    .homeCardWrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 1050px;
+    }
+
+    .homeBG{
+        height: 290vh;
+    }
+
+    .homeBG:before{
+        height: 53%;
+    }
+
+    .homeName{
+        font-weight: 900;
+    }
+}
