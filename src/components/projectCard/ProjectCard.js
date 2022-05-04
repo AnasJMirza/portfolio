@@ -2,7 +2,7 @@ import { Grid } from "@mui/material";
 import React from "react";
 import Button from "../button/Button";
 import "./ProjectCard.css";
-import tesla from '../../images/tesla-clone.PNG'
+
 
 
 const ProjectCard = (props) => {

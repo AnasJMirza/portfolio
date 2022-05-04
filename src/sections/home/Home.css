@@ -3,7 +3,7 @@
     background-image: url('/public/images/homeBG.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: right 10px;
     position: relative;
     z-index: 3;
 }

@@ -12,7 +12,7 @@ const Project = () => {
         <div className='projectMainDiv'>
             
             
-            <div className='projectHeading'>
+            <div className='projectHeading' id='project'>
                 <PageHeading title="Side Projects"/>
             </div>
 

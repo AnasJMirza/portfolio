@@ -1,0 +1,22 @@
+.footerBody{
+    height: 50px;
+    background-color: #232323;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-weight: bold;
+    cursor: pointer;
+    color: #707070;
+}
+
+.endLine{
+    color: white;
+}
+
+.footerReact, .footerName{
+    color: #5e84e9;
+}
