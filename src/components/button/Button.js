@@ -3,9 +3,11 @@ import './Button.css'
 
 const Button = (props) => {
     return (
-        <div className='btn'>
-            {props.title}
-        </div>
+        <a href={props.link} target="_blank" className='linkRemover'>
+            <div className='btn'>
+                {props.title}
+            </div>
+        </a>
     );
 };
 

@@ -1,17 +1,20 @@
-.projectCardMain{
-    display: flex;
-    justify-content: center;
-}
+/* .projectCardMain{
+    background-color: #191919;
+    padding-top: 20vh;
+    height: 100vh;
+} */
+
 
 .projectCardBody{
-    background-color: green;
+    background-color: #232323;
     width: 50vw;
     height: 70vh;
     border-radius: 10px;
 
-    margin-top: 25vh;
+    /* margin-top: 45vh; */
     margin-left: 9vw;
     padding: 40px;
+    color: white;
 
 
 
@@ -19,12 +22,40 @@
     z-index: 90;
 }
 
+.projectCardHeading{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.projectCardDesc{
+    line-height: 4vh;
+    padding-bottom: 3vh;
+    
+}
+
 .projectDiv{
-    width: 50vw;
-    height: 50vh;
-    background-color: white;
+    width: 48vw;
+    height: 55vh;
+    background-color: #303030;
 
     border-radius: 10px;
 
-    margin-top: 5vh;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+.cardVerticalAlign{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60vh;
+}
+
+.teslaImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+
 }

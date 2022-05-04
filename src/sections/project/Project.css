@@ -3,3 +3,12 @@
     z-index: 90;
     margin-top: 100px;
 }
+
+.projectMainDiv{
+    background-color: #191919;
+    height: 200vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
