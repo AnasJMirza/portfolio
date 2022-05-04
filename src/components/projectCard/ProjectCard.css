@@ -1,9 +1,30 @@
+.projectCardMain{
+    display: flex;
+    justify-content: center;
+}
+
 .projectCardBody{
     background-color: green;
-    width: 600px;
-    height: 400px;
-    border-radius: 5px;
+    width: 50vw;
+    height: 70vh;
+    border-radius: 10px;
+
+    margin-top: 25vh;
+    margin-left: 9vw;
+    padding: 40px;
+
+
 
     position: relative;
     z-index: 90;
+}
+
+.projectDiv{
+    width: 50vw;
+    height: 50vh;
+    background-color: white;
+
+    border-radius: 10px;
+
+    margin-top: 5vh;
 }

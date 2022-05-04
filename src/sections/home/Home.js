@@ -9,6 +9,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import HomeCard from '../../components/homeCard/HomeCard';
+import CV from '../../Anas-CV-1.2.pdf'
 
 const Home = () => {
     return (
@@ -23,7 +24,7 @@ const Home = () => {
                     <p className='homeDesc'>React-JS Developer</p>
 
                     <div className='homeButton'>
-                        <a href={resume} download className='textDecoration'><Button title="Download Resume"/></a>
+                        <a href={CV} download className='textDecoration'><Button title="Download Resume"/></a>
                     </div>
 
                     <div className='homeIconsWrapper'>

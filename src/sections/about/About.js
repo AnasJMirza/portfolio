@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css'
 import anas from '../../images/anas.png'
+import anas1 from '../../images/anas-1.png'
 import PageHeading from '../../components/pageHeading/PageHeading';
 import { Grid } from '@mui/material';
 
@@ -16,7 +17,7 @@ const About = () => {
                 <Grid container>
                     <Grid item md={4}>
                         <div className='aboutImgWrapper'>
-                            <img src={anas} width="55%"/>
+                            <img src={anas1} width="55%"/>
                         </div>
                     </Grid>
 
