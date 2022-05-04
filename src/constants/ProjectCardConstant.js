@@ -1,1 +1,6 @@
-export const projectOneDesc = "Github Readme Stats dynamically generates stats for github user's readmes, After github launched it's profile readme feature I thought I would do something unique and dynamic with new readme resumes so I made github-readme-stats which is now used by many people and got over 1k stars on github within 7 days, and currently it has over 30k stars. it has few cool features including `Github Extra Pins` which allows us to pin more that 6 repos in our profile."
+export const projectOneDesc = "I beleive to learn by doing projects. This project created by me when I am learning react basics. By designing this particular User-Interface I learn about the fundamentals of react like components, useState, useEffects and other common hooks. All the data displayed on the UI is not hard-coded but coming from an API call. I use TMDB (The Movie DataBase) API for this purpose. I enjoy building this project cause I have learn alot."
+
+
+
+
+export const projectTwoDesc = "This project is very close to my heart because this was my first project back in 2021 whwn I sarted learning react. Dy doing this project I have come to know the power of components of react. I just made a component and reuse it every where and in just somw minutes this project was completed. This is a fully respinsive UI of the well known tesla company."

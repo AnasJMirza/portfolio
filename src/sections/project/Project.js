@@ -1,6 +1,6 @@
 import React from 'react';
 import './Project.css'
-import { projectOneDesc } from '../../constants/ProjectCardConstant';
+import { projectOneDesc, projectTwoDesc } from '../../constants/ProjectCardConstant';
 import PageHeading from '../../components/pageHeading/PageHeading';
 import ProjectCard from '../../components/projectCard/ProjectCard';
 import netflix from '../../images/netflix.PNG'
@@ -21,7 +21,7 @@ const Project = () => {
             </div>
 
             <div>
-                <ProjectCard heading="Tesla Clone" desc={projectOneDesc} link="http://teslaclonebyanas.surge.sh/" img={tesla} />
+                <ProjectCard heading="Tesla Clone" desc={projectTwoDesc} link="http://teslaclonebyanas.surge.sh/" img={tesla} />
             </div>
             
             
