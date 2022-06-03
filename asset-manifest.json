@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6f55889d.css",
-    "main.js": "/portfolio/static/js/main.ea01085a.js",
+    "main.js": "/portfolio/static/js/main.0687aff4.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/anas.png": "/portfolio/static/media/anas.042bb39a5496a369c253.png",
     "static/media/anas-1.png": "/portfolio/static/media/anas-1.ff93727cc4d8cabdc147.png",
     "static/media/netflix.PNG": "/portfolio/static/media/netflix.368135a932eb7d56815e.PNG",
     "static/media/tesla-clone.PNG": "/portfolio/static/media/tesla-clone.0ee4b1f63beabcc4d3b4.PNG",
     "static/media/Resume-1.1.png": "/portfolio/static/media/Resume-1.1.7fea802e6065512ec122.png",
-    "static/media/Anas-CV-1.2.pdf": "/portfolio/static/media/Anas-CV-1.2.3c1f6557708baca09af6.pdf",
+    "static/media/Anas's-CV-1.4.pdf": "/portfolio/static/media/Anas's-CV-1.4.1dd514b55b765fc08945.pdf",
     "static/media/homeBG.png": "/portfolio/static/media/homeBG.7e4349108c56d5c829e2.png",
     "static/media/js.png": "/portfolio/static/media/js.395e380744c49b6de542.png",
     "static/media/skill-JS.png": "/portfolio/static/media/skill-JS.39b504d99adcc008b24c.png",
     "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio/index.html",
     "main.6f55889d.css.map": "/portfolio/static/css/main.6f55889d.css.map",
-    "main.ea01085a.js.map": "/portfolio/static/js/main.ea01085a.js.map",
+    "main.0687aff4.js.map": "/portfolio/static/js/main.0687aff4.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f55889d.css",
-    "static/js/main.ea01085a.js"
+    "static/js/main.0687aff4.js"
   ]
 }
