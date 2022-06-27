@@ -54,7 +54,7 @@ const Home = () => {
                     </div>
                     
                     <div className='homeCard'>
-                        <HomeCard heading='Craetive Coding' desc="I love creative coding because I do both coding & designing. making beautiful art with code is very satisfying to me."/>
+                        <HomeCard heading='Creative Coding' desc="I love creative coding because I do both coding & designing. making beautiful art with code is very satisfying to me."/>
                     </div>
                 </div>
 
