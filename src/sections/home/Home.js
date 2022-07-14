@@ -9,12 +9,13 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import HomeCard from '../../components/homeCard/HomeCard';
-import CV from '../../Anas-CV-1.2.pdf'
+import CV from "../../Anas-CV-2.0.pdf"
 
 const Home = () => {
     return (
         <div>
             <Navbar/>
+
 
             <div className='homeBG' id='home'>
                 <div className='homeText'>
